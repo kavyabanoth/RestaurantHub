@@ -1,4 +1,4 @@
-@'
+
 name: RestaurantHub CI Pipeline
 
 on:
@@ -49,4 +49,3 @@ jobs:
       - name: Build frontend
         working-directory: frontend
         run: npm run build
-'@ | Set-Content .github\workflows\ci.yml
